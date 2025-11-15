@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
 
     if ($check > 0) {
-         echo "sudah ada nama yg sama";
+         echo "Tidak Boleh ada nama yang sama!";
          return;
     }
 
