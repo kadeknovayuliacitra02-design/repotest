@@ -31,7 +31,7 @@ $conn = null;
         <input type="text" name="price" required><br>
         <label for="stock">Stock:</label>
         <input type="text" name="stock" required><br>
-        <label for="category_id">Category:</label><br>
+        <label for="category_id">Categories:</label><br>
         <select name="category_id" required>
         <option value="">Select Category</option>
             <?php foreach ($categories as $category): ?>
